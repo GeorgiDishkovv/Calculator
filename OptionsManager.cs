@@ -16,6 +16,10 @@ namespace GitExercise
         {
             Console.WriteLine($"{a} - {b} = {a - b}");
         }
+        public static void Multiply(double a, double b)
+        {
+            Console.WriteLine($"{a} * {b} = {a * b}");
+        }
 
 
     }
